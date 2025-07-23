@@ -1,0 +1,13 @@
+POST http://localhost:3000/api/gestionnaire/auth/register
+Content-Type: application/json
+
+{
+    "username":"Amine",
+    "email":"amine@gmail.com",
+    "password":"123456879"
+}
+
+###
+
+GET http://localhost:3000/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTQsInVzZXJuYW1lIjoiQW1pbmUiLCJpYXQiOjE3NTE4MTc1Njd9.gPvN-uJYeDxWs6Pv0FaF_XbNcCJYjxyYvb8dWcu6d70
