@@ -1,0 +1,64 @@
+/* components/PopupAction.css */
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(20, 20, 20, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+}
+
+.popup-content {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.popup-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.popup-form label {
+  margin-top: 0.8rem;
+  font-weight: bold;
+}
+
+.popup-form input,
+.popup-form textarea {
+  padding: 0.5rem;
+  margin-top: 0.2rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.popup-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+}
+
+.popup-buttons button {
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.popup-buttons .cancel {
+  background: #f44336;
+  color: white;
+}
+
+.popup-buttons button[type="submit"] {
+  background: #4caf50;
+  color: white;
+}
