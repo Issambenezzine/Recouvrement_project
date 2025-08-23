@@ -1,0 +1,164 @@
+.p-commission-page {
+  padding: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Synthèse */
+.stats-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.stats-card {
+  background: #d3c4c4c3;
+  padding: 0.5rem;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.stats-card h3 {
+  margin: 0 0 0.5rem;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.stats-card p {
+  margin: 0;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #222;
+}
+
+/* Filtres */
+.controls {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
+
+.controls label {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-size: 0.85rem;
+  color: #444;
+}
+
+.controls select {
+  width: 200px;
+  padding: 0.4rem 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+/* Titre + bouton */
+.table-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.table-header h2 {
+  color: #620303;
+  margin: 0;
+}
+
+.btn-refresh {
+  background: #005EB8;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-refresh:hover {
+  background: #004a99;
+}
+
+/* Tableau */
+.table-container {
+  overflow-x: auto;
+  margin-bottom: 2rem;
+}
+
+.table-container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-container th,
+.table-container td {
+  text-align: left;
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #eee;
+}
+
+.table-container th {
+  background: #f9f9f9;
+  color: #333;
+  font-weight: 600;
+}
+
+.table-container tbody tr:nth-child(even) {
+  background: #fcfcfc;
+}
+
+.reliquat-zero {
+  color: green;
+  font-weight: bold;
+}
+
+.reliquat-positive {
+  color: rgb(34, 0, 255);
+  font-weight: bold;
+}
+
+/* Charts */
+.charts-container {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.performance-chart {
+  flex: 1 1 100%; /* full row */
+}
+
+
+
+.chart-card {
+  flex: 1;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+}
+
+.chart-card h4 {
+  margin: 0 0 0.5rem;
+  font-size: 1rem;
+}
+
+.chart-card p {
+  margin: 0 0 0.5rem;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.chart-footer {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  color: #555;
+  text-align: right;
+}
+
+ 
+.recharts-x-axis text {
+  font-size: 12px;
+}
